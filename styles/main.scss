@@ -1,0 +1,49 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+/***********************************
+    Margins and Paddings and Borders
+************************************/
+
+$max-width: 960px;
+
+/**********************************
+    Fonts
+***********************************/
+// font-family: 'Abril Fatface', cursive;
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Abril+Fatface|Rancho);
+// 'Droid Serif', serif;
+// 'Abril Fatface', cursive;
+// 'Rancho', cursive;
+
+/*****************************************
+    Basic Styling
+*****************************************/
+
+body {
+  margin: 0 auto;
+  width: 90%;
+  height: 2000px;
+  background-color: $background-color;
+}
+
+ul, li, a {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/******************************************
+    Canvas
+******************************************/
+#sf-canvas {
+  display: block;
+  width: 70%;
+  z-index: 50;
+}
+
+
+/******************************************
+    Nav
+******************************************/
+
